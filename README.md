@@ -1,7 +1,7 @@
 
 # Stock Market Analysis & Prediction (ARIMA) 📈💰
 
-(Time Series Analysis Project)
+---Time Series Analysis Project
 
 ## 📌 Project Overview
 A robust time-series forecasting model built to predict future stock prices using the **ARIMA (AutoRegressive Integrated Moving Average)** model. It identifies linear trends and seasonal patterns in historical market data to assist in informed decision-making.
