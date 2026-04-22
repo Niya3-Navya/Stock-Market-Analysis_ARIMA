@@ -17,9 +17,10 @@ A robust time-series forecasting model built to predict future stock prices usin
 
 ## 🛠️ Tech Stack
 *   **Language:** Python
-*   **Statistical Modeling:** Statsmodels (ARIMA/SARIMA)
+*   **Statistical Modeling:** Statsmodels (ARIMA)
 *   **Data Analysis:** Pandas, NumPy, yfinance
-*   **Visualization:** Matplotlib, Seaborn
+*   **Visualization:** Matplotlib
+*   **Database:** Mongodb Compass
 
 # System Screenshots
 
@@ -122,4 +123,13 @@ respective dashboards based on their roles.
 
 <img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/57fe39d8-e6d7-44ee-94b7-ee10266a6a9a" />
 <img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/530f7031-a148-4a8d-a163-0cb1088deb6d" />
+
+# Admin Module:
+
+<img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/e479d42f-7333-4add-aef5-2580d227a8bb" />
+
+# Mongodb Compass Database:
+
+<img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/4385105f-4fba-492b-ab37-328835631eae" />
+<img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/2b59eba7-7196-4a3f-b08f-18fccb4149c9" />
 
