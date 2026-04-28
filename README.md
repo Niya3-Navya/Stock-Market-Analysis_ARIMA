@@ -104,27 +104,6 @@ Expected Return  = Risk-Free Rate + β × (Market Return − Risk-Free Rate)
 
 ---
 
-## 📁 Project Structure
-
-```
-Stock-Market-Analysis/
-│
-├── app.py                    # Main Streamlit application entry point
-├── pages/
-│   ├── stock_analysis.py     # ARIMA modeling & visualization module
-│   ├── capm.py               # CAPM Beta & Return calculator
-│   ├── admin.py              # Admin dashboard
-│   └── feedback.py           # User feedback module
-├── auth/
-│   ├── login.py              # User authentication logic
-│   └── register.py           # New user registration
-├── database/
-│   └── mongo_connect.py      # MongoDB connection & CRUD operations
-├── utils/
-│   ├── fetch_data.py         # yfinance data fetching functions
-│   └── arima_model.py        # ARIMA fitting & diagnostics
-└── README.md
-```
 
 ---
 
@@ -132,7 +111,7 @@ Stock-Market-Analysis/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/stock-market-analysis.git
+git clone https://github.com/Niya3-Navya/stock-market-analysis.git
 cd stock-market-analysis
 
 # Configure MongoDB
