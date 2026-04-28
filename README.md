@@ -104,6 +104,8 @@ Expected Return  = Risk-Free Rate + β × (Market Return − Risk-Free Rate)
 
 ---
 
+## 📂 Data Source
+Live data fetched via **yfinance** API — no dataset download needed.
 
 ---
 
