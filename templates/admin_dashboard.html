@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles-index.css') }}">
+    <style>
+        /* Table Styling */
+            /* Reduce overall width */
+    .container {
+        width: 60%;  /* Shrinks the width */
+        margin: auto;
+        text-align: center;
+    }
+
+    /* Smaller table size */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        font-size: 14px;  /* Reduce font size */
+    }
+
+    th, td {
+        padding: 10px;  /* Reduce padding */
+        text-align: left;
+        border-bottom: 1px solid white;
+    }
+
+    th {
+        background: rgba(255, 255, 255, 0.2);
+        font-weight: bold;
+    }
+
+    tr:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+
+    .table-container {
+        margin-top: 15px;
+        padding: 15px;  /* Reduce padding */
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+    }
+
+    /* Reduce heading and paragraph font sizes */
+    h1 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .auth-links {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    /* Adjust button size */
+    .btn {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: white;">Admin Dashboard</h1>
+        
+        <div class="auth-links">
+            <p style="color: white;">Welcome, {{ session.get("username") }} (Admin)!</p>
+            <a href="{{ url_for('logout') }}" class="btn">Logout</a>
+        </div>
+
+        <div class="table-container">
+            <h3 style="color: white;">Registered Users</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user, details in users.items() %}
+                        <tr>
+                            <td>{{ user }}</td>
+                            <td>{{ details.email }}</td>
+                            <td>{{ details.role }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="table-container">
+            <h3 style="color: white;">User Feedback</h3>
+            {% if feedback_list %}
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Username</th>
+                            <th>Feedback</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for username, feedback in feedback_list %}
+                            <tr>
+                                <td>{{ username }}</td>
+                                <td>{{ feedback }}</td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p style="color: white;">No feedback available.</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

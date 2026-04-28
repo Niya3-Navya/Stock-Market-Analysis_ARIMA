@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Works</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles-index.css') }}">
+</head>
+<body>
+    <div class="login-container">  <!-- Reusing the same container class -->
+        <h2 style="color: white;">How It Works</h2>
+        <p style="color: white;">Follow these steps to understand how the stock prediction system works:</p>
+        
+        <ul style="color: white; text-align: left; max-width: 500px; margin: auto;">
+            <li>The system collects past stock prices from Yahoo Finance.</li>
+            <li>It analyzes how the stock price has changed over time.</li>
+            <li>An AI model studies past trends and patterns.</li>
+            <li>The model predicts future stock prices based on what it learned.</li>
+            <li>The system shows the predicted prices along with graphs.</li>
+        </ul>
+
+        <br>
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="{{ url_for('index') }}" class="how-it-works-btn">Back to Login</a>
+        </div>
+    </div>
+</body>
+</html>
