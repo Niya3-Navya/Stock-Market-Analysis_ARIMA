@@ -181,6 +181,24 @@ scikit-learn
 
 ---
 
+## 📸 App Screenshots
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/af0a2458-d122-4ae1-bcb2-4013020ed106" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/8f5c2947-667e-4188-a266-131d4cbbd91f" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/5bdc7596-1e79-4626-a091-0fa33953b94a" />
+<img width="960" height="540" alt="image" src="https://github.com/user-attachments/assets/cbfd474a-ae18-4433-be56-9122672016a4" />
+<img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/0d231aac-0fce-4056-8154-90ae0413ee48" />
+<img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/2cbddecb-5987-4618-9943-5d5a03958ff8" />
+<img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/5625a6a3-68de-4400-bbac-3134b724b648" />
+<img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/6f56d349-5460-4053-b920-8852a3e2af3a" />
+<img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/e58d70b0-e772-4aa7-bf62-4c306f1da6a5" />
+<img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/57fe39d8-e6d7-44ee-94b7-ee10266a6a9a" />
+<img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/530f7031-a148-4a8d-a163-0cb1088deb6d" />
+<img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/e479d42f-7333-4add-aef5-2580d227a8bb" />
+<img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/4385105f-4fba-492b-ab37-328835631eae" />
+<img width="768" height="432" alt="image" src="https://github.com/user-attachments/assets/2b59eba7-7196-4a3f-b08f-18fccb4149c9" />
+
+---
+
 ## 🔮 Future Enhancements
 
 - [ ] Add **Prophet model** for better seasonality handling in stock trends
